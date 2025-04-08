@@ -32,4 +32,16 @@ public class Upgrade_Amount : MonoBehaviour
         purchaseCost = Mathf.CeilToInt(baseCost * Mathf.Pow(multiplier, numberOwned));
     }
 
+
+    public void PurchaseUpgrade()
+    {
+        if (myResources.CheckResources(purchaseCost))
+        {
+            myResources.RemoveResources(purchaseCost);
+            myResources.autoClicks += autoClickIncrease;
+            numberOwned++;
+            SetUI();
+        }
+    }
+
 }
