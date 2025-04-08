@@ -7,6 +7,7 @@ public class ResourceTracker : MonoBehaviour
 {
 
     public int resourcesAvailable;
+    public float autoClicks, autoClickPool;
     public TMP_Text resourceCounter;
 
 
