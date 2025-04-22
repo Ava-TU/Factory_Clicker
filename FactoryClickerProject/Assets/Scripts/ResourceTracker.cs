@@ -52,6 +52,8 @@ public class ResourceTracker : MonoBehaviour
             AddResources(1);
             UpdateUI();
         }
+
+        UpdateUI();
     }
 
 
