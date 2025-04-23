@@ -7,16 +7,21 @@ using UnityEngine.Events;
 public class UnlockScript : MonoBehaviour
 {
 
-    public UnityEvent remove, show, interacted;
+    public ResourceTracker tracker;
 
-    private bool insideTrigger;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (insideTrigger && Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyUp(KeyCode.E))
         {
-            interacted?.Invoke();
+            print(tracker.resourcesAvailable);
         }
     }
 }
