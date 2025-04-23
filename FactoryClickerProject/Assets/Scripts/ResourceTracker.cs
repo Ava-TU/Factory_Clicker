@@ -54,6 +54,12 @@ public class ResourceTracker : MonoBehaviour
         }
 
         UpdateUI();
+        
+        
+        //if (resourcesAvailable == 20)
+        //{
+            //print("Wow");
+        //}
     }
 
 
