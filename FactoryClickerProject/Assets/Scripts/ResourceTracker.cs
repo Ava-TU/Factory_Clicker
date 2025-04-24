@@ -23,7 +23,7 @@ public class ResourceTracker : MonoBehaviour
         UpdateUI();
     }
 
-
+    //Takes away resources
     public void RemoveResources(int amountToRemove)
     {
         resourcesAvailable -= amountToRemove;
