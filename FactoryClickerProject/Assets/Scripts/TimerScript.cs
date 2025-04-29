@@ -10,13 +10,7 @@ public class TimerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (myResources.resourcesAvailable >= 1000)
-        {
-            elapsedTime += Time.deltaTime;
-            print(elapsedTime);
-
-        }
-
+        elapsedTime += Time.deltaTime;
+        print(elapsedTime);
     }
 }
