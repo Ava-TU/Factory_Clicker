@@ -151,6 +151,7 @@ MonoBehaviour:
   changeStaion:
     m_PersistentCalls:
       m_Calls: []
+  timerScript: {fileID: 1035637000}
 --- !u!4 &37157545
 Transform:
   m_ObjectHideFlags: 0

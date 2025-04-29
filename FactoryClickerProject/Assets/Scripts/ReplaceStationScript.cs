@@ -7,6 +7,8 @@ public class ReplaceStationScript : MonoBehaviour
 {
     public UnityEvent changeStaion;
 
+    public TimerScript timerScript;
+
     // Start is called before the first frame update
     void Start()
     {
