@@ -119,6 +119,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &37157543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 37157545}
+  - component: {fileID: 37157544}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &37157544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37157543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7aef76be84da149943d064c7da88f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeStaion:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &37157545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37157543}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 906.92694, y: 495.77756, z: -7.221371}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &58164785
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,7 +2197,7 @@ MonoBehaviour:
   nameText: {fileID: 1372952583}
   numberText: {fileID: 1691908407}
   myResources: {fileID: 1833289755}
-  autoClickIncrease: 8
+  autoClickIncrease: 10
 --- !u!114 &598936185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4246,7 +4293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1035637000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4747,7 +4794,7 @@ MonoBehaviour:
   nameText: {fileID: 410440132}
   numberText: {fileID: 833580365}
   myResources: {fileID: 1833289755}
-  autoClickIncrease: 12
+  autoClickIncrease: 15
 --- !u!114 &1316783832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4803,6 +4850,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1035636999}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1316783833
 MonoBehaviour:
@@ -5848,18 +5907,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1035636999}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1681001539
 MonoBehaviour:
@@ -7691,4 +7738,5 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1962292366}
   - {fileID: 1035637001}
+  - {fileID: 37157545}
   - {fileID: 442121931}
