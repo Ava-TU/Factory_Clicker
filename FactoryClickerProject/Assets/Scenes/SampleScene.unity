@@ -2044,7 +2044,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 908712394}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.65805185
+  m_Size: 0.6714815
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3788,7 +3788,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1316783829}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3800,7 +3800,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1665371952}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6050,6 +6050,7 @@ GameObject:
   - component: {fileID: 1833289753}
   - component: {fileID: 1833289752}
   - component: {fileID: 1833289755}
+  - component: {fileID: 1833289756}
   m_Layer: 5
   m_Name: PlayerClicker
   m_TagString: Untagged
@@ -6183,11 +6184,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30205219803fdf0478b3ffc4ed23abf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourcesAvailable: 0
+  resourcesAvailable: 999
   autoClicks: 0
   autoClickPool: 0
   resourceCounter: {fileID: 1001294383}
   clickCounter: {fileID: 1983761451}
+--- !u!114 &1833289756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833289750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef743f89154ee649a2554f4c07bfe15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elapsedTime: 0
+  myResources: {fileID: 1833289755}
 --- !u!1 &1840410483
 GameObject:
   m_ObjectHideFlags: 0

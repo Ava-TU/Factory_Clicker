@@ -11,6 +11,7 @@ public class ResourceTracker : MonoBehaviour
     public TMP_Text resourceCounter, clickCounter;
 
 
+
     private void Start()
     {
         UpdateUI();
@@ -54,12 +55,6 @@ public class ResourceTracker : MonoBehaviour
         }
 
         UpdateUI();
-        
-        
-        //if (resourcesAvailable == 20)
-        //{
-            //print("Wow");
-        //}
     }
 
 
@@ -67,11 +62,6 @@ public class ResourceTracker : MonoBehaviour
     {
         resourceCounter.text = "Money: " + resourcesAvailable.ToString();
         clickCounter.text = "Money Per Second " + (Mathf.Round(autoClicks * 10)/10).ToString();
-    }
-
-    private void AddMachines()
-    {
-        if (resourcesAvailable > 1000 && )
     }
 
 }
