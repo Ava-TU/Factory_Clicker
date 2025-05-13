@@ -2621,8 +2621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 95.87364, y: -56}
-  m_SizeDelta: {x: 151.7473, y: 50}
+  m_AnchoredPosition: {x: 112.86, y: -49.09999}
+  m_SizeDelta: {x: 152.7842, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &686657648
 MonoBehaviour:
@@ -2644,17 +2644,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Factory Clicker
+  m_text: Company Co.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d57e109fa362fe547ac22ef5532cabb5, type: 2}
+  m_sharedMaterial: {fileID: -6814058109398871387, guid: d57e109fa362fe547ac22ef5532cabb5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4285164236
-  m_fontColor: {r: 0.7987421, g: 0.4144416, b: 0.4144416, a: 1}
+    rgba: 4279374355
+  m_fontColor: {r: 0.0754717, g: 0.06941973, b: 0.06941973, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2671,15 +2671,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.7
+  m_fontSize: 25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6494,8 +6494,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 289.06915, y: 0.47503662}
-  m_SizeDelta: {x: -578.1383, y: 0.95004}
+  m_AnchoredPosition: {x: 290.64502, y: 0.47503662}
+  m_SizeDelta: {x: -579.33, y: 0.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889765670
 MonoBehaviour:
@@ -7409,7 +7409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -111.2, y: 0}
+  m_AnchoredPosition: {x: -110.1, y: 0.000006198883}
   m_SizeDelta: {x: 192.8, y: 341.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049645152
