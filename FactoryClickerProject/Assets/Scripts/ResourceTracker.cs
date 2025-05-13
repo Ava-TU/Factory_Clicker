@@ -61,7 +61,7 @@ public class ResourceTracker : MonoBehaviour
     private void UpdateUI()
     {
         resourceCounter.text = "Money: " + resourcesAvailable.ToString();
-        clickCounter.text = "Money Per Second " + (Mathf.Round(autoClicks * 10)/10).ToString();
+        clickCounter.text = "Money Per Second: " + (Mathf.Round(autoClicks * 10)/10).ToString();
     }
 
 }
