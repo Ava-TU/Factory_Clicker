@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 
 public class dialogue : MonoBehaviour
 {
+
+    public UnityEvent turnOff, turnOn;
+
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
@@ -65,6 +69,8 @@ public class dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            turnOff.Invoke();
+            turnOn.Invoke();
         }
     }
 
