@@ -223,7 +223,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 37157544}
+        m_TargetAssemblyTypeName: ReplaceStationScript, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   timerScript: {fileID: 1035637000}
+  sceneName: End
 --- !u!4 &37157545
 Transform:
   m_ObjectHideFlags: 0
@@ -695,9 +708,9 @@ RectTransform:
   - {fileID: 971161812}
   m_Father: {fileID: 1369356828}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205.8173, y: -339.58}
   m_SizeDelta: {x: 389.6346, y: 661.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &187279819
