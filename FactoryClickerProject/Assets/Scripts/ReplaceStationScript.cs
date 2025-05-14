@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ReplaceStationScript : MonoBehaviour
 {
-    public UnityEvent changeDesign, changePrototype, changeMolding, changeProduction, changeAssembly;
+    public UnityEvent changeDesign, changePrototype, changeMolding, changeProduction, changeAssembly, getDialogue;
 
     public TimerScript timerScript;
 
