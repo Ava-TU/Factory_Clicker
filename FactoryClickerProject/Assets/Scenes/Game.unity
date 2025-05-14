@@ -301,6 +301,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 124307967}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   changePrototype:
     m_PersistentCalls:
       m_Calls:
@@ -878,7 +890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &124307968
 RectTransform:
   m_ObjectHideFlags: 0
@@ -897,7 +909,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -105.583534, y: 274.58}
-  m_SizeDelta: {x: 147.9286, y: 41.333}
+  m_SizeDelta: {x: 147.9286, y: 38.6296}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &124307969
 MonoBehaviour:
@@ -9014,7 +9026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30205219803fdf0478b3ffc4ed23abf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourcesAvailable: 0
+  resourcesAvailable: 999999999
   autoClicks: 0
   autoClickPool: 0
   resourceCounter: {fileID: 1001294383}
