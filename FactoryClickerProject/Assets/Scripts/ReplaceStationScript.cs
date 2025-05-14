@@ -51,6 +51,11 @@ public class ReplaceStationScript : MonoBehaviour
         {
             changeAssembly.Invoke();
         }
+
+        if (timerScript.elapsedTime >= 110)
+        {
+            getDialogue.Invoke();
+        }
     }
 
 
