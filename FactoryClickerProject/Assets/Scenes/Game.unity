@@ -695,9 +695,9 @@ RectTransform:
   - {fileID: 971161812}
   m_Father: {fileID: 1369356828}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 205.8173, y: -339.58}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 389.6346, y: 661.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &187279819
@@ -2461,7 +2461,7 @@ GameObject:
   - component: {fileID: 622198712}
   - component: {fileID: 622198711}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2866,8 +2866,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279374355
-  m_fontColor: {r: 0.07450981, g: 0.07058824, b: 0.07058824, a: 1}
+    rgba: 4283712768
+  m_fontColor: {r: 0, g: 0.27058825, b: 0.32941177, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4261,8 +4261,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279374355
-  m_fontColor: {r: 0.07450981, g: 0.07058824, b: 0.07058824, a: 1}
+    rgba: 4280293890
+  m_fontColor: {r: 0.007843138, g: 0.101960786, b: 0.1254902, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4949,8 +4949,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279374355
-  m_fontColor: {r: 0.07450981, g: 0.07058824, b: 0.07058824, a: 1}
+    rgba: 4283712768
+  m_fontColor: {r: 0, g: 0.27174827, b: 0.3301887, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5054,7 +5054,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -50.5703, y: -30.0688}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212677541
 MonoBehaviour:
@@ -5076,7 +5076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5103,7 +5103,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6582,9 +6582,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1833289751}
   - component: {fileID: 1833289754}
+  - component: {fileID: 1833289756}
   - component: {fileID: 1833289752}
   - component: {fileID: 1833289755}
-  - component: {fileID: 1833289756}
   m_Layer: 5
   m_Name: PlayerClicker
   m_TagString: Untagged
@@ -6609,8 +6609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 178}
-  m_SizeDelta: {x: 213.33333, y: 213.33333}
+  m_AnchoredPosition: {x: 0.0049915, y: 122}
+  m_SizeDelta: {x: 101.333336, y: 101.333336}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1833289752
 MonoBehaviour:
@@ -6652,7 +6652,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1833289756}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -6713,7 +6713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 76f419ddde84b0e488b7f4edc4810561, type: 3}
+  m_Sprite: {fileID: 6134751039864755284, guid: 76f419ddde84b0e488b7f4edc4810561, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7289,8 +7289,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279374355
-  m_fontColor: {r: 0.07450981, g: 0.07058824, b: 0.07058824, a: 1}
+    rgba: 4280228353
+  m_fontColor: {r: 0.005206477, g: 0.10167096, b: 0.122641504, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
